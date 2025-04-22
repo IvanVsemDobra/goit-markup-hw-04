@@ -212,7 +212,6 @@ h3 {
     font-family: var(--font-family);
     text-decoration: underline;
 }
-
 .container-hero {
     display: flex;
     align-items: center;
@@ -220,14 +219,22 @@ h3 {
     flex-direction: column;
     gap: 0px;
     flex-basis:  1158px;
-    background-color: var(--navy-blue);
 } 
 .section-hero {
-    background-color:var(--navy-blue);
     padding-top: 188px;
     padding-bottom: 188px;
-   
+    position: relative;
+    top:0;
+    left: 200px;
+    max-width: 1440px;
+    background-image: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%),
+        url(../images/people-office\ 1-min.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+
 .section-hero-main {
     display: flex;
     align-items: center;
@@ -249,6 +256,7 @@ h3 {
     border: none;
     cursor: pointer;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
     cursor: pointer;
@@ -309,6 +317,16 @@ h3 {
     color: var(--navy-blue);
     margin-bottom: 8px;
 }
+.item-link {
+    display: block;
+    box-sizing: border-box;
+    padding: 24px 100px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    background-color: var(--cloud);
+}
+
 .section-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
