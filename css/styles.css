@@ -227,6 +227,7 @@ h3 {
     top:0;
     left: 200px;
     max-width: 1440px;
+    width: auto;
     background-image: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%),
         url(../images/people-office\ 1-min.jpg );
     background-repeat: no-repeat;
@@ -364,10 +365,7 @@ h3 {
     border-bottom-right-radius: 4px;
 }
 .img-section-team {
-    flex-basis: calc((100% - 72px)/4);
-    
-    
-    
+    flex-basis: calc((100% - 72px)/4);   
 }
 .section-team-hi {
     margin-bottom: 8px;
@@ -379,6 +377,25 @@ h3 {
     color: var(--slate);
     text-align: center;
 }
+.scocial-list {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    width: 232px;
+    height: 40px;
+}
+.team-icon {
+    width: 40px;
+    height: 40px;
+fill: var(--white);
+stroke: #2e2f42;
+
+
+
+
+}
+    
+
 .section-portfolio {
     padding-top: 120px;
     padding-bottom: 120px; 
