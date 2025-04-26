@@ -512,7 +512,6 @@ stroke: var(--iris);
     background-color: var(--navy-blue);
     padding-top: 100px;
     padding-bottom: 100px;
-   
 }
 .container-footer {
     display: flex;
@@ -524,6 +523,9 @@ stroke: var(--iris);
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.foooter-logo-box {
+    margin-right: 120px;
 }
 .footer-logo {
     display: inline-block;
@@ -559,6 +561,10 @@ stroke: var(--iris);
 .list-footer {
     display:flex;
     gap: 16px;
+}
+.scocial-list-team {
+    width: 40px;
+    height: 40px;
 }
 .footer-text-f {
     display: block;
