@@ -230,7 +230,7 @@ h3 {
     max-width: 1440px;
     width: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1-min.jpg );
+    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -522,12 +522,8 @@ stroke: var(--iris);
 .container-cocial {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
-    
-    
-
-    
 }
 .footer-logo {
     display: inline-block;
@@ -538,6 +534,7 @@ stroke: var(--iris);
     text-transform: uppercase;
     color: var(--iris);
     margin-bottom: 16px;
+    margin-right: 120px
 }
 .footer-span {
     font-weight: 700;
@@ -559,8 +556,10 @@ stroke: var(--iris);
     text-transform: none;
 
 }
-.list-foote {
-    display: block;
+
+.list-footer {
+    display:flex;
+    gap: 16px;
 }
 .footer-text-f {
     display: block;
@@ -570,6 +569,10 @@ stroke: var(--iris);
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--white);
-    margin: 16px;
+    margin-bottom: 16px;
 }
-
+.footer-tem-link:hover,
+.footer-tem-link:focus,
+.footer-tem-link:active {
+    background-color: var(--green);
+}
