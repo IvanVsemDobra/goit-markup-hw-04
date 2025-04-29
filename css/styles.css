@@ -298,7 +298,7 @@ h3 {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    gap: 24px;
 }
 .section-item {
     gap: 8px;
@@ -312,7 +312,6 @@ h3 {
     background-color: var(--cloud);
     border-radius: 4px;
     border: 1px solid var(--light-slate);
-    margin-right: 24px;
     margin-bottom: 8px;
 }
 
@@ -408,11 +407,9 @@ h3 {
 }
 .team-icon {
 fill:var(--cloud);
-stroke: var(--iris);
 
 }
     
-
 .section-portfolio {
     padding-top: 120px;
     padding-bottom: 120px; 
@@ -457,14 +454,6 @@ stroke: var(--iris);
     overflow: hidden;
 }
 .container-img-portfolio:hover .ovrlay-text {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 4px;
-    cursor: pointer;
-    transition: box-shadow
-    250ms cubic-bezier(0.4, 0, 0.2, 1);
-    overflow: visible;
     transform: translateY(0%);
 }
 
@@ -549,8 +538,6 @@ stroke: var(--iris);
     color: var(--cloud);
     text-decoration: none;
     width: 264px;
-    text-transform: none;
-
 }
 
 .list-footer {
